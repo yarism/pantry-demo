@@ -1,0 +1,11 @@
+{
+  "name": "pantry",
+  "version": "1.0.0",
+  "description": "A tiny app for keeping track of what is in the kitchen",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "postversion": "git push --follow-tags"
+  },
+  "license": "ISC"
+}
