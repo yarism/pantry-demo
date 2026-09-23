@@ -1,6 +1,6 @@
 {
   "name": "pantry",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tiny app for keeping track of what is in the kitchen",
   "type": "module",
   "scripts": {
