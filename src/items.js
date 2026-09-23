@@ -1,7 +1,10 @@
 export const items = [];
 
+// Adding an item that already exists tops up its amount instead.
 export function addItem(name, amount) {
-  items.push({ name, amount });
+  const existing = items.find((item) => item.name === name);
+  if (existing) existing.amount += amount;
+  else items.push({ name, amount });
 }
 
 export function removeItem(name) {
